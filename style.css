@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@font-face {
+   font-family: 'Pollos';
+   src: url("https://files.asfaltinho.ga/lph/pollos.ttf") format('truetype');
+}
+
+
+
+{
+font-family: 'Rubik Puddles', cursive;
+}
+
+.titolo {
+    text-align: center;
+    border-radius: 100px;
+    background-color: lightblue;
+    color:crimson;
+    }
+    
+    .center {
+    text-align:center;
+    }
+    
+    .menu {
+    text-align: left;
+    size: 40px;
+    }
+    
+
+    .quattrocentoquattro {
+    text-align: center;
+    border-radius: 40px;
+    background-color: firebrick;
+    color: white;
+    size: 40px;
+    }
+    
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 12px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #4CAF50;
+		  font-size: 30;
+		  border-radius: 8px;
+		  cursor: pointer;
+		  position: relative;
+		  bottom: 36px;
+		  right: 200px;
+		  font-family: Pollos;
+      }
+      
+      .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+        font-size: 30px;
+        border-radius: 8px;
+		  cursor: pointer;
+		  position: relative;
+		  left: 260px;
+		  font-family: Pollos;
+      }
+      
+      .button3 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #f44336;
+      }
+    
+    .wrapper {
+        text-align: center;
+    }
+    
+    .neonText {
+		  font-family: 'Pollos';
+        color: rgb(255, 0, 0);
+        text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          0 0 42px rgb(255, 140, 0),
+          0 0 82px rgb(203, 21, 21),
+          0 0 92px rgb(255, 0, 0),
+          0 0 102px rgb(255, 0, 0),
+          0 0 151px rgb(255, 0, 0);
+      }
+
+    /*Per importare il file css bisogna mettere sta cosa bellina all'inizio di ogni html
+    <link rel="stylesheet" href="style.css" />  */
