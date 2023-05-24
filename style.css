@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
 @font-face {
-   font-family: 'Pollos';
-   src: url("https://files.asfaltinho.ga/lph/pollos.ttf") format('truetype');
+  font-family: 'Pollos';
+  src: url("pollos.ttf") format('truetype');
 }
 
 
@@ -49,27 +49,27 @@ font-family: 'Rubik Puddles', cursive;
       }
       
       .button1 {
-        background-color: white; 
-        color: black; 
-        border: 2px solid #4CAF50;
+      background-color: white; 
+      color: black; 
+      border: 2px solid #4CAF50;
 		  font-size: 30;
 		  border-radius: 8px;
 		  cursor: pointer;
 		  position: relative;
-		  bottom: 36px;
-		  right: 200px;
+		  bottom: 127px;
+		  right: 300px;
 		  font-family: Pollos;
       }
       
       .button2 {
-        background-color: white; 
-        color: black; 
-        border: 2px solid #008CBA;
-        font-size: 30px;
-        border-radius: 8px;
+      background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+      font-size: 30px;
+      border-radius: 8px;
 		  cursor: pointer;
 		  position: relative;
-		  left: 260px;
+		  left: 340px;
 		  font-family: Pollos;
       }
       
