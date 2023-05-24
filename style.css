@@ -96,6 +96,11 @@ font-family: 'Rubik Puddles', cursive;
           0 0 102px rgb(255, 0, 0),
           0 0 151px rgb(255, 0, 0);
       }
+    .corpo {
+      font-family: Arial;
+      font-size: 25px;
+      color: black;
+    }
 
     /*Per importare il file css bisogna mettere sta cosa bellina all'inizio di ogni html
     <link rel="stylesheet" href="style.css" />  */
