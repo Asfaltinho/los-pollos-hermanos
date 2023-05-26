@@ -4,6 +4,11 @@
   src: url("pollos.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: 'nomeacasosodisperatoaiuto';
+  src: url("https://files.asfaltinho.ga/lph/breakingbad.ttf") format('truetype');
+}
+
 
 
 {
