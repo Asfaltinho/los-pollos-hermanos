@@ -2,6 +2,17 @@
 <head>
     <title>Los Pollos Hermanos</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function checkInput() {
+          var input = document.getElementById("myInput").value;
+          
+          if (input.toLowerCase() === "heisenberg") {
+            window.location.href = "meth.html";
+          } else {
+            alert("Easter egg: scrivi Heisenberg");
+          }
+        }
+      </script>
 </head>
 
 <body bgcolor="418BC3">
@@ -31,6 +42,12 @@
     <img src="https://files.asfaltinho.ga/lph/coscioarrosto.png" width="40%" height="auto" align="right" style="padding-top: 10%; padding-right: 10%">
     <img src="https://files.asfaltinho.ga/lph/patatefrittepollos.png" width="70%" height="auto" align="center" style="padding-top: 10%; padding-left: 10%;">
     <h1 align="center">Come scusa? Con tutte queste foto ancora non ti è venuta fame? Forza, <strong>dai un'occhiata al nostro menu!</strong></h1>
-    <h5>Sito fan-made ispirato alla catena "Los Pollos Hermanos" della serie "Breaking Bad"</h5>
+    <h1 align="center">Vieni a trovarci!</h1>
+    <div align="center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209131.6896674426!2d-106.99122380546875!3d35.014648400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87220d0a121604ed%3A0xc185463b0a72dca6!2sLos%20Pollos%20Hermanos!5e0!3m2!1sit!2sit!4v1685134061227!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>Vuoi prenotare? Scrivi la tua mail e sarai ricontattato!</h2>
+    <input type="text" id="myInput">
+    <button onclick="checkInput()">Invio</button>
 </body>
 </html>
