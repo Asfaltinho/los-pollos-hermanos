@@ -83,6 +83,24 @@ font-family: 'Rubik Puddles', cursive;
   text-align: center;
 }
 
+.titolicolonna {
+  border: 2px solid black
+  padding: 8px;
+  background-color: white;
+  font-family: Pollos;
+  color: red;
+  font-size: 40px;
+  text-align: center;
+}
+
+.corpocolonna {
+  border: 2px solid black;
+  padding: 8px 20px 8px 8px;
+  font-family: Pollos;
+  color: rgb(255, 247, 0);
+  font-size: 30px;
+  text-align: center;
+}
 
     /*Per importare il file css bisogna mettere sta cosa bellina all'inizio di ogni html
     <link rel="stylesheet" href="style.css" />  */
