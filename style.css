@@ -4,10 +4,8 @@
   src: url("pollos.ttf") format('truetype');
 }
 
-@font-face {
-  font-family: 'bakingbread';
-  src: url("breakingbad.otf") format('opentype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&display=swap');
+/*font-family: 'Noto Sans Chorasmian', sans-serif;*/
 
 
 
@@ -67,9 +65,9 @@ font-family: 'Rubik Puddles', cursive;
     0 0 151px rgb(255, 0, 0);
   }
 .corpo {
-  font-family: Arial;
   font-size: 25px;
   color: black;
+  font-family: 'Noto Sans Chorasmian', sans-serif;
   }
 
 .fotodx {
@@ -87,6 +85,10 @@ font-family: 'Rubik Puddles', cursive;
 .test {
   text-align: center;
 }
+
+.corpoindex {
+  font-family: 'Noto Sans Chorasmian', sans-serif;
+  }
 
 .titolicolonna {
   border: 2px solid black
