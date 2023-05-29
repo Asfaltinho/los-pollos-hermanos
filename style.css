@@ -3,8 +3,8 @@
   src: url("pollos.ttf") format('truetype');
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&display=swap');
-/*font-family: 'Noto Sans Chorasmian', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*font-family: 'Roboto', sans-serif*/
 
 
     
@@ -59,10 +59,11 @@
     0 0 102px rgb(255, 0, 0),
     0 0 151px rgb(255, 0, 0);
   }
+
 .corpo {
   font-size: 25px;
   color: black;
-  font-family: 'Noto Sans Chorasmian', sans-serif;
+  font-family: 'Roboto', sans-serif;
   }
 
 .fotodx {
@@ -78,7 +79,8 @@
 }
 
 .corpoindex {
-  font-family: 'Noto Sans Chorasmian', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: black;
   }
 
 .titolicolonna {
