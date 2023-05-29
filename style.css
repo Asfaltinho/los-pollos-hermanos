@@ -29,7 +29,7 @@
 	border-radius: 8px;
 	cursor: pointer;
 	position: relative;
-	bottom: 130px;
+	bottom: 134px;
 	right: 25%;
 	font-family: Pollos;
   }
@@ -55,9 +55,7 @@
     0 0 21px #fff,
     0 0 42px rgb(255, 140, 0),
     0 0 82px rgb(203, 21, 21),
-    0 0 92px rgb(255, 0, 0),
-    0 0 102px rgb(255, 0, 0),
-    0 0 151px rgb(255, 0, 0);
+    0 0 92px rgb(255, 0, 0);
   }
 
 .corpo {
@@ -97,7 +95,7 @@
   border: 2px solid black;
   padding: 8px 20px 8px 8px;
   font-family: Pollos;
-  color: rgb(255, 247, 0);
+  color: rgb(255, 238, 0);
   font-size: 30px;
   text-align: center;
 }
